@@ -1,0 +1,11 @@
+require:
+  - rubocop-sorbet
+
+inherit_gem:
+  rubocop-sorbet: config/default.yml
+
+AllCops:
+  NewCops: disable
+  Include:
+    - "**/*.rb"
+    - "**/*.rbi"
